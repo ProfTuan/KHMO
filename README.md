@@ -4,5 +4,5 @@ Under development...check back later
 
 ## Developers
 
-*Eloisa Ngyuen, Seattle Pacific Univeristy
-*Tuan Amith, University of Texas Medical Branch
+* Eloisa Ngyuen, Seattle Pacific Univeristy
+* Tuan Amith, University of Texas Medical Branch
