@@ -1,6 +1,6 @@
-#Kinetic Human Movement Ontology (KHMO)
+# Kinetic Human Movement Ontology (KHMO)
 
-Under development...
+Under development...check back later
 
 ## Developers
 
