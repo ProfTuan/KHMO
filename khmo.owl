@@ -19,9 +19,9 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://utmb.edu/ontology/khmo.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/KHMO/main/fma%20workspace/fma_khmo.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/KHMO/main/nbo%20workspace/nbo_khmo.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/KHMO/main/obi%20workspace/obi_khmo.owl"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/KHMO/main/fma%20workspace/fma_khmo.owl"/>
         <dc:creator>Eloisa Nguyen</dc:creator>
         <dc:creator>Tuan Amith</dc:creator>
         <dc:title>Kinentic Human Movement Ontology (KHMO)</dc:title>
@@ -62,7 +62,7 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000001">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002331"/>
                 <owl:someValuesFrom rdf:resource="http://utmb.edu/ontology/khmo.owl#KHMO_00000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
