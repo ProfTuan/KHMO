@@ -17,6 +17,7 @@
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
@@ -631,6 +632,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.org/sig/ont/fma/term_status -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/term_status"/>
+    
+
+
+    <!-- http://schema.org/image -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/image"/>
     
 
 
