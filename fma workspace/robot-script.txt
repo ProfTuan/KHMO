@@ -7,6 +7,9 @@ robot extract --method STAR --input "fma.owl" -t "http://purl.org/sig/ont/fma/fm
 robot extract --method MIREOT --input "fma.owl" -u "http://purl.org/sig/ont/fma/fma62955" -L "parts.txt" --intermediates all --copy-ontology-annotations true --imports include -o fma_parts_extract.owl -vv
 
 
+//final - muscles (July 2024)
+robot extract --method MIREOT --input "fma.owl" --branch-from-term "http://purl.org/sig/ont/fma/fma5022" -u "http://purl.org/sig/ont/fma/fma62955" -l "http://purl.org/sig/ont/fma/fma5022" --intermediates all --copy-ontology-annotations true --imports include -o fma_muscle_extract.owl -vv
+
 ------
 
 robot merge --inputs "*_extract.owl" -o fma_khmo.owl --include-annotations true
