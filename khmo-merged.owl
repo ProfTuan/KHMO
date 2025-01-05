@@ -60859,6 +60859,7 @@ Cardinal body part, which consists of a maximal set of diverse subclasses of org
                 <owl:someValuesFrom rdf:resource="http://utmb.edu/ontology/khmo.owl#KHMO_00000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <fma:definition>A composite of various integrated human anatomical parts contributing to human movement.</fma:definition>
         <rdfs:label xml:lang="en">human kinetic coordinated movement</rdfs:label>
     </owl:Class>
     
@@ -60874,6 +60875,7 @@ Cardinal body part, which consists of a maximal set of diverse subclasses of org
                 <owl:someValuesFrom rdf:resource="http://utmb.edu/ontology/khmo.owl#KHMO_00000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <fma:definition>A posture expressed specifically by a human being</fma:definition>
         <rdfs:label xml:lang="en">human stance</rdfs:label>
     </owl:Class>
     
@@ -60883,6 +60885,7 @@ Cardinal body part, which consists of a maximal set of diverse subclasses of org
 
     <owl:Class rdf:about="http://utmb.edu/ontology/khmo.owl#KHMO_00000003">
         <rdfs:subClassOf rdf:resource="http://utmb.edu/ontology/khmo.owl#KHMO_00000002"/>
+        <fma:definition>A physical posture defining a starting point of a human-based movement</fma:definition>
         <rdfs:label xml:lang="en">initial human stance</rdfs:label>
     </owl:Class>
     
@@ -60892,6 +60895,7 @@ Cardinal body part, which consists of a maximal set of diverse subclasses of org
 
     <owl:Class rdf:about="http://utmb.edu/ontology/khmo.owl#KHMO_00000004">
         <rdfs:subClassOf rdf:resource="http://utmb.edu/ontology/khmo.owl#KHMO_00000002"/>
+        <fma:definition>A human posture that expresses the end goal of a human-based movement</fma:definition>
         <rdfs:label xml:lang="en">realized human stance</rdfs:label>
     </owl:Class>
     
@@ -60907,7 +60911,9 @@ Cardinal body part, which consists of a maximal set of diverse subclasses of org
                 <owl:someValuesFrom rdf:resource="http://utmb.edu/ontology/khmo.owl#KHMO_00000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">physical activity</rdfs:label>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Physical_activity</obo:IAO_0000119>
+        <fma:definition>&quot;defined as any voluntary bodily movement produced by skeletal muscles that requires energy expenditure. Physical activity encompasses all activities, at any intensity, performed during any time of day or night. It includes both voluntary exercise and incidental activity integrated into the daily routine&quot;</fma:definition>
+        <rdfs:label xml:lang="en">planned physical activity</rdfs:label>
     </owl:Class>
     
 
