@@ -11,3 +11,8 @@ The Kinetic Human Movement Ontology is an ontological representation of physiolo
 
 * Eloisa Ngyuen, Seattle Pacific University
 * Tuan Amith, University of Texas Medical Branch
+* Vivian Ha, Rice University
+
+## License
+
+ICO is licensed under the Creative Commons Attribution 4.0 International Public License(CC BY 4.0). Please see the License File for more information.
