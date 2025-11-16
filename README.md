@@ -2,6 +2,8 @@
 
 The Kinetic Human Movement Ontology is an ontological representation of physiological movement of homo sapiens. The ontology models the contributing entities that are involved in motion of from one physical stance to another physical stance (ending stance). The ontology utilizes several major OBO Foundry ontologies' controlled terminologies to form this ontology artifact. 
 
+The figure below abstractly describes the core representation of KHMO that links anatomical entities and names of movements with processes and activities. The model reuses terminologies from Foundational Model of Anatomy, Neural Behavior Ontology, and the Ontology of Biomedical Investigation
+
 ![central core model of KHMO](core-model.png)
 
 
